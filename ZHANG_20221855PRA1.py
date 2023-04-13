@@ -14,9 +14,6 @@ st.sidebar.subheader("Connect with me on:")
 st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/martinezhang)")
 st.sidebar.markdown("[GitHub](https://github.com/martinezhang)")
 
-st.sidebar.title("Martine ZHANG")
-st.sidebar.subheader("Connect with me on:")
-
 # Adding social media links with icons
 st.sidebar.markdown('## Social Media')
 st.sidebar.write('')
