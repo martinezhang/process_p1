@@ -5,4 +5,3 @@ seaborn==0.11.2
 gdown==3.14.0
 scikit-learn==0.24.1
 pydeck==0.6.2
-pydeck_streamlit
