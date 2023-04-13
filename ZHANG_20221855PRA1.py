@@ -8,18 +8,8 @@ import gdown
 # Set page configuration
 st.set_page_config(page_title="My Streamlit App", page_icon=":cat:")
 
-import streamlit as st
-from PIL import Image
-
-# Sidebar
-st.sidebar.title("About")
-st.sidebar.info(
-    "This is a Streamlit dashboard created by Martine ZHANG. \n"
-    "Check out my social media profiles below! ")
-
-# Adding profile picture
-image = Image.open("profile_pic.jpg")
-st.sidebar.image(image, caption='Martine ZHANG', use_column_width=True)
+st.sidebar.title("Martine ZHANG")
+st.sidebar.subheader("Connect with me on:")
 
 # Adding social media links with icons
 st.sidebar.markdown('## Social Media')
