@@ -14,19 +14,6 @@ st.sidebar.subheader("Connect with me on:")
 st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/martinezhang)")
 st.sidebar.markdown("[GitHub](https://github.com/martinezhang)")
 
-# Adding social media links with icons
-st.sidebar.markdown('## Social Media')
-st.sidebar.write('')
-st.sidebar.write('')
-st.sidebar.write('')
-st.sidebar.write('')
-
-st.sidebar.write('LinkedIn')
-st.sidebar.markdown('[<img src="https://i.imgur.com/QrwhV2R.png" width="30">](https://www.linkedin.com/in/martinezhang/)')
-
-st.sidebar.write('GitHub')
-st.sidebar.markdown('[<img src="https://i.imgur.com/0o48UoR.png" width="30">](https://github.com/martinezhang)')
-
 # Setting the title of the Streamlit app
 st.title('Uber Data Analysis - April 2014')
 
