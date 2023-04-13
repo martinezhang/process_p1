@@ -8,11 +8,33 @@ import gdown
 # Set page configuration
 st.set_page_config(page_title="My Streamlit App", page_icon=":cat:")
 
-# Add sidebar info
-st.sidebar.title("Martine ZHANG")
-st.sidebar.subheader("Connect with me on:")
-st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/martinezhang)")
-st.sidebar.markdown("[GitHub](https://github.com/martinezhang)")
+import streamlit as st
+from PIL import Image
+
+# Sidebar
+st.sidebar.title("About")
+st.sidebar.info(
+    "This is a Streamlit dashboard created by Martine ZHANG. \n"
+    "Check out my social media profiles below! ")
+
+# Adding profile picture
+image = Image.open("profile_pic.jpg")
+st.sidebar.image(image, caption='Martine ZHANG', use_column_width=True)
+
+# Adding social media links with icons
+st.sidebar.markdown('## Social Media')
+st.sidebar.write('')
+st.sidebar.write('')
+st.sidebar.write('')
+st.sidebar.write('')
+
+st.sidebar.write('LinkedIn')
+st.sidebar.markdown('[<img src="https://i.imgur.com/QrwhV2R.png" width="30">](https://www.linkedin.com/in/martinezhang/)')
+
+st.sidebar.write('GitHub')
+st.sidebar.markdown('[<img src="https://i.imgur.com/0o48UoR.png" width="30">](https://github.com/martinezhang)')
+
+
 
 # Setting the title of the Streamlit app
 st.title('Uber Data Analysis - April 2014')
