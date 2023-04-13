@@ -8,6 +8,12 @@ import gdown
 # Set page configuration
 st.set_page_config(page_title="My Streamlit App", page_icon=":cat:")
 
+# Add sidebar info
+st.sidebar.title("Martine ZHANG")
+st.sidebar.subheader("Connect with me on:")
+st.sidebar.markdown("[LinkedIn](https://www.linkedin.com/in/martinezhang)")
+st.sidebar.markdown("[GitHub](https://github.com/martinezhang)")
+
 st.sidebar.title("Martine ZHANG")
 st.sidebar.subheader("Connect with me on:")
 
@@ -23,8 +29,6 @@ st.sidebar.markdown('[<img src="https://i.imgur.com/QrwhV2R.png" width="30">](ht
 
 st.sidebar.write('GitHub')
 st.sidebar.markdown('[<img src="https://i.imgur.com/0o48UoR.png" width="30">](https://github.com/martinezhang)')
-
-
 
 # Setting the title of the Streamlit app
 st.title('Uber Data Analysis - April 2014')
